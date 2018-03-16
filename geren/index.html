@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/rem1.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <div class="tou">
+        <div class="caidang">
+            <i class="iconfon">&#xe65e;</i>
+        </div>
+        <h1>旺旺个人博客</h1>
+    </div>
+    <div class="kuangzi">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+        </ul>
+        <ul>
+            <li><a href="qianduan.html">前端</a></li>
+        </ul>
+        <ul>
+            <li><a href="">音乐</a></li>
+        </ul>
+        <ul>
+            <li><a href="liuyan.html">留言</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/m.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/b.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/n.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="locn">
+        <div class="locn-tou">制作Icon Font  </div>
+        <div class="left">
+            <a href="xiangqing.html"><img src="img/l.jpg" alt=""></a>
+        </div>
+        <div class="right">
+            新浪，一淘网等等。icon font 有很多优点，本身比图片小很多，在兼容性方面也有很好的表现，但有优点就必...
+        </div>
+    </div>
+    <div class="locn">
+            <div class="locn-tou">高效jquery（二）  </div>
+            <div class="left">
+                <img src="img/k.jpg" alt="">
+            </div>
+            <div class="right">
+                // 建议
+                $ele = $('#ele');
+                d = $ele.height();
+                $ele.css('height',d-20)...
+            </div>
+        </div>
+    <div class="locn">
+            <div class="locn-tou">高效jquery（一）  </div>
+            <div class="left">
+                <img src="img/j.jpg" alt="">
+            </div>
+            <div class="right">
+                jquery是现在最常用的js框架了，如何高质量的写出代码，下面总结一下，一下内容有来源于网络搜集。
+            </div>
+        </div>
+    <div class="locn">
+            <div class="locn-tou">移动前端开发（二）  </div>
+            <div class="left">
+                <img src="img/h.jpg" alt="">
+            </div>
+            <div class="right">
+                终端用户响应的时间中，包括下载页面中的图像、样式表、脚本、Flash等。通过减少页面中的元素可以减少HTTP请求的次数。这是提高网页速度的关键步骤。
+            </div>
+        </div>
+    <div class="locn">
+            <div class="locn-tou">html5语义化标签  </div>
+            <div class="left">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="right">
+                在工作上虽然大多数都是移动端的webapp，但是用到的html5语义化标签还是不多，大部分还是以div这个容器为主，今天就来整理一下那些html5新增的容器标签。
+            </div>
+        </div>
+    <div class="bottom">
+        <div class="bottom-ziti">web前端旺旺博客 &nbsp; &nbsp;版权所有，保留一切权利 ·    ·   &nbsp; 基于WordPress构建   &nbsp;© 2011-2014  ·   &nbsp; 托管于 衡天小张主机</div>
+    </div>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/index.js"></script>
